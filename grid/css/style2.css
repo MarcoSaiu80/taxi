@@ -1,0 +1,167 @@
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+	font-family: "calibri";
+	text-align:inherit;
+}
+p {
+	color: rgba(27,99,147,1);
+	padding-left:50px;
+	padding-right:50px;
+}
+.pw {
+	color: rgba(255,255,255,1);
+}
+
+.h1 {
+	font-size:large;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.h2 {
+	font-size: xx-large;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.h3 {
+	font-size: 70px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.horizontal {display: inline; border-left: 4px solid; padding-left: 1em; padding-right: 1em;}
+.first { border-left: none; padding-left: 0; }
+
+input.text {
+  background: white;
+  border: 1px solid gray;
+  color: blue;
+  width: 250px;
+  height:30px;
+  padding-left:10px;
+}
+
+#background {
+    background : #ffffff url("../images/bg.jpg") no-repeat top ;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+    
+}
+#tabella {background-color: rgba(220, 247, 254, 0.8);
+	color: rgba(0, 0, 0, 1);
+    //border-radius: 6px 6px 6px 6px;
+	max-width:900px;
+	//padding-top:5px;
+	//padding-bottom:5px;
+	margin:auto;
+	height:100%;
+	box-shadow: 0px 0px 5px #000000;
+	
+}
+#tab_logo{
+	background-color: rgba(13, 53, 89, 0.9);
+	width:100%;
+	float:right;
+}
+#tab_menu{
+	background-color: rgba(27, 99, 147, 0.9);
+	width:100%;
+	float:right;
+	color:rbga(255,255,255,1);
+	min-width:900px;
+}
+
+#tab_submenu{
+	background-color: rgba(133, 175, 213, 0.5);
+	width:100%;
+	float:right;
+	color:rbga(255,255,255,1);
+	min-width:900px;
+}
+
+#tab_footer{
+	background-color: rgba(13, 53, 89, 0.9);
+	align:center;
+	width:100%;
+	float:right;
+	font-size:12px;
+}
+
+#tab_testo {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:0px;
+	padding-bottom:0px;
+	min-height: 100%;
+	max-width:90%;
+	display: table-row;
+	float:center;
+}
+#tab_testo_40 {
+	
+	float:left;
+	width:40%;
+	height:100%;
+}
+#tab_testo_20 {
+	
+	float:left;
+	width:19%;
+}
+
+#tab_testo_10 {
+	
+	float:left;
+	width:10%;
+}
+#tab_testo_5 {
+	
+	float:left;
+	width:5%;
+}
+#tab_img{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#tab_prenota{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color: rgba(255, 255, 255, 0.6);
+	width:600px;
+	font-family:"calibri";
+	color:rgba(9,46,88,1);
+}
+
+#tab_ordine{
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color: rgba(255, 255, 255, 0.6);
+	
+	width:600px;
+	
+	font-family:"calibri";
+	color:rgba(9,46,88,1);
+}
+
+#tab_intestazioni{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:2px;
+	padding-bottom:2px;
+	background-color: rgba(13, 53, 89, 0.9);
+	width:600px;
+	font-family:"calibri";
+	color:rgba(255,255,255,1);
+}
+
